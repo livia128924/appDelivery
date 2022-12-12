@@ -72,14 +72,14 @@ const wrapSandwich = {
 const menu = [
     {
         id: 1,
-        name: 'Featured',
+        name: 'Destaque',
         list: [
             hamburger, hotTacos, vegBiryani,
         ],
     },
     {
         id: 2,
-        name: 'Nearby you',
+        name: 'Perto de você',
         list: [
             hamburger, vegBiryani, wrapSandwich,
         ],
@@ -93,7 +93,7 @@ const menu = [
     },
     {
         id: 4,
-        name: 'Newest',
+        name: 'Novidade',
         list: [
             hamburger, hotTacos, vegBiryani,
         ],
@@ -107,7 +107,7 @@ const menu = [
     },
     {
         id: 6,
-        name: 'Recommended',
+        name: 'Recomendado',
         list: [
             hamburger, hotTacos, wrapSandwich,
         ],

@@ -233,7 +233,6 @@ const MainLayout = ({
     <Animated.View
       style={{
         flex: 1,
-
         backgroundColor: COLORS.white2,
         ...drawerAnimationStyle,
       }}>
@@ -241,7 +240,8 @@ const MainLayout = ({
       <HeaderScreen
         containerStyle={{
           height: 50,
-          paddingHorinzontal: SIZES.padding,
+          //paddingHorinzontal: SIZES.padding,
+          marginHorizontal: SIZES.padding,
           marginTop: 40,
           alignItems: 'center',
         }}
@@ -332,7 +332,7 @@ const MainLayout = ({
             right: 0,
             height: 100,
             borderTopLeftRadius: 15,
-            borderTioRightRadius: 15,
+            borderTopRightRadius: 15,
           }}
         />
         <View
@@ -343,6 +343,7 @@ const MainLayout = ({
             paddingBottom: 10,
             borderTopLeftRadius: 20,
             borderTopRightRadius: 20,
+            borderBottomLeftRadius:30,
             backgroundColor: COLORS.white,
           }}>
           <TabButton
